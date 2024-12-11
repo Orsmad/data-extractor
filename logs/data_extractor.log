@@ -1,0 +1,16 @@
+11/12/2024 16:41:17 - data-extractor - INFO - data_extractor - Data_extractor starting...
+11/12/2024 16:41:17 - data-extractor - DEBUG - fetch_data - Sending GET request to URL: http://www.phpbb.com/community/viewtopic.php?f=46&t=2159437
+11/12/2024 16:41:18 - data-extractor - INFO - fetch_data - Data successfully fetched
+11/12/2024 16:41:18 - data-extractor - DEBUG - extract_data_from_html - Starting data extraction from fetched html
+11/12/2024 16:41:18 - data-extractor - INFO - extract_data_from_html - Found 5 posts, validating data....
+11/12/2024 16:41:18 - data-extractor - INFO - extract_data_from_html - Validated 5 posts / 5
+11/12/2024 16:41:18 - data-extractor - DEBUG - write_posts_to_file - Writing results to ./output/phbb.json
+11/12/2024 16:41:18 - data-extractor - DEBUG - write_posts_to_file - Finished writing results to file
+11/12/2024 16:41:18 - data-extractor - DEBUG - fetch_data - Sending GET request to URL: https://forum.vbulletin.com/forum/vbulletin-3-8/vbulletin-3-8-questions-problems-and-troubleshooting/414325-www-vs-non-www-url-causing-site-not-to-login
+11/12/2024 16:41:19 - data-extractor - INFO - fetch_data - Data successfully fetched
+11/12/2024 16:41:19 - data-extractor - DEBUG - extract_data_from_html - Starting data extraction from fetched html
+11/12/2024 16:41:19 - data-extractor - INFO - extract_data_from_html - Found 10 posts, validating data....
+11/12/2024 16:41:19 - data-extractor - INFO - extract_data_from_html - Validated 10 posts / 10
+11/12/2024 16:41:19 - data-extractor - DEBUG - write_posts_to_file - Writing results to ./output/vbulletin.json
+11/12/2024 16:41:19 - data-extractor - DEBUG - write_posts_to_file - Finished writing results to file
+11/12/2024 16:41:19 - data-extractor - INFO - data_extractor - Done!
