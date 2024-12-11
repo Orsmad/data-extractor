@@ -1,0 +1,40 @@
+
+# Python
+*.pyc
+*.pyo
+# *.log
+__pycache__
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Distribution / packaging
+.Packages
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+
+# Python virtual environment
+.venv/
+
+# Local configuration files
+*.env
+
+

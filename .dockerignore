@@ -1,0 +1,33 @@
+
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Ignore cache and pyc files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore distribution and packaging directories
+dist/
+build/
+*.egg-info/
+
+# Ignore log files
+*.log
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore environment configuration files
+.env
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
