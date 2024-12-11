@@ -4,7 +4,7 @@
 The **Data Extractor** project is a Python-based tool designed to extract specific data fields from two webpages and save the results in a predefined schema. It processes the webpages and outputs files with the following data schema:
 
 - **Text**
-- **Publish Date and Time** (Format: `Year/Month/Day Hour:Minutes`)
+- **Publish Date and Time**
 - **Author Name**
 - **Post Title**
 
@@ -29,7 +29,7 @@ The **Data Extractor** project is a Python-based tool designed to extract specif
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Orsmad/data-extractor.git
    cd data-extractor
    ```
 
@@ -72,8 +72,8 @@ You can modify the `configs` file to update extraction parameters or add new set
 ## Output
 
 The extracted data is saved as:
-- `output/phpbb_data.txt`
-- `output/vbulletin_data.txt`
+- `output/phpbb.json`
+- `output/vbulletin.json`
 
 Each file will contain structured information in the following format:
 ```

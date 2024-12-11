@@ -1,11 +1,9 @@
-
 import re
 from datetime import datetime
 
 
-
-def normalize_datetime(datetime_str) -> str: 
-    input_format = "%Y-%m-%dT%H:%M:%S%z" 
+def normalize_datetime(datetime_str) -> str:
+    input_format = "%Y-%m-%dT%H:%M:%S%z"
 
     # Parse the datetime string to a datetime object
     try:
@@ -19,14 +17,14 @@ def normalize_datetime(datetime_str) -> str:
         return "Invalid datetime format"
 
 
-def normalize_content(content)->str:
+def normalize_content(content) -> str:
     # Remove all HTML tags and their attributes (e.g., <a href="...">, <span class="...">, etc.)
-    content = re.sub(r'<[^>]+>', '', content)
+    content = re.sub(r"<[^>]+>", "", content)
 
     # Replace newlines and tabs with spaces
-    content = re.sub(r'[\n\t]', ' ', content)
+    content = re.sub(r"[\n\t]", " ", content)
 
     # Replace multiple spaces with a single space
-    content = re.sub(r'\s+', ' ', content).strip()
+    content = re.sub(r"\s+", " ", content).strip()
 
     return content
